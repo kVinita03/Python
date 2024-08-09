@@ -86,11 +86,11 @@ class LinkedList:
 llist = LinkedList()
 
 # Add nodes to the linked list
-llist.add_first('Hi ~')
-llist.add_last('My')
-llist.add_last('name')
-llist.add_last('is')
-llist.add_last('YumYum')
+llist.add_first('Nice')
+llist.add_last('to')
+llist.add_last('meet')
+llist.add_last('you')
+llist.add_last('.')
 
 # Print the linked list
 print("Node : ")
@@ -107,5 +107,5 @@ print("\nRemove Node 1:")
 llist.remove_node(1)
 llist.print_ll()
 
-print("\nCheck if 'YumYum' is in the linked list:", 'YumYum' in llist)
-print("Check if 'My' is in the linked list:", 'My' in llist)
+print("\nCheck if 'you' is in the linked list:", 'you' in llist)
+print("Check if 'Nice' is in the linked list:", 'Nice' in llist)
